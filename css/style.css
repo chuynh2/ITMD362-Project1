@@ -1,6 +1,7 @@
 html {
 	font-family: 'Karla', sans-serif;
 	font-size:17px;
+	background-color: #f4fab9;
 }
 #main-header{
 	font-family: 'Gamja Flower', cursive;
@@ -31,8 +32,25 @@ html {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 20px;
+	
 }
 #main-navbar div ul li a:hover {
   background-color:#fcffc7;
   color: black;
+  
+}
+#main{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+}
+table{
+	margin: 0 auto;
+	padding: 40px;
+	width: 100%;
+	background-color: #fdffe0;
+	
+} 
+#table-style{
+	border: 3px solid #f4fab9;
 }
