@@ -1,4 +1,38 @@
 html {
-
+	font-family: 'Karla', sans-serif;
+	font-size:17px;
 }
-	
+#main-header{
+	font-family: 'Gamja Flower', cursive;
+	font-size: 64px;
+	text-align: center;
+	overflow: hidden;
+	background-color: #ffdbfa;
+	color: #eb4d7c;
+}
+#main-navbar {
+	background-color: #eb4d7c;
+	overflow: hidden;
+}
+#main-navbar div ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #eb4d7c;
+}
+#main-navbar div ul li {
+	float: left;
+}
+#main-navbar div ul li a {
+	display: block;
+	color: #ffdbfa;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+#main-navbar div ul li a:hover {
+  background-color:#fcffc7;
+  color: black;
+}
