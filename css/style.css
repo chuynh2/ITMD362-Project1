@@ -40,10 +40,33 @@ html {
   
 }
 #main{
-	width: 1000px;
+	width: 1200px;
 	margin: 0 auto;
 	padding: 50px;
 }
+#checkout-aside{
+	float: right;
+	background-color:#fdffe0;
+	padding: 5px;
+}
+#left-section{
+	float: left;
+}
+
+#summary-table{
+	margin: 0 auto;
+	padding: 0px;
+	border: 1px solid black;
+	td{
+	float: left;
+	}
+}
+#continue-button{
+	margin: 18px auto;
+	padding: 10px;
+	float: right;
+}
+
 table{
 	margin: 0 auto;
 	padding: 40px;
@@ -51,6 +74,8 @@ table{
 	background-color: #fdffe0;
 	
 } 
-#table-style{
-	border: 3px solid #f4fab9;
+
+.subheading{
+	font-size: 20px;
+	
 }
