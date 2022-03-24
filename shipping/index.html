@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 		<title> Shipping </title>
-		<link rel = "stylesheet" href = "css/screen.css">
+		<link rel = "stylesheet" href = "../css/screen.css">
     </head>
     <body>
         <header id = "main-header">
@@ -37,82 +37,45 @@
                         <label for = "same"> Same as Billing Address </label><br>
                         <input type = "radio" id = "different" name = "sdaddress" value = "differnt">
                         <label for = "different"> Different Address </label><br>
-                        <table class = "formtable">
-                            <tr>
-                                <td>
-                                    <input type = "text" id = "fname-shipping" name = "fname-shipping" placeholder = "First Name">
-                                </td>
-                                <td>
-                                    <input type = "text" id = "lname-shipping" name = "lname-shipping" placeholder = "Last Name"><br>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for = "fname-shipping"> First Name </label><br>
-                                </td>
-                                <td>
-                                    <label for = "lname-shipping"> Last Name </label><br>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type = "text" id = "email" name = "email" placeholder = "Email">
-                                </td>
-                                <td>
-                                    <input type = "text" id = "phone" name = "phone" placeholder = "+1(123)-456-7890"><br>
-                            </td>
-                            </tr>    
-                            <tr>
-                                <td>
-                                    <label for = "email"> Email </label>
-                                </td>
-                                <td>
-                                    <label for = "phone"> Phone Number</label>
-                                </td>
-                            </tr>
-                            <tr>
-                            <td>
-                                <input type = "text" id = "address" name = "address" placeholder = "Street Address">
-                            </td>
-                         </tr>
-                         <tr>
-                            <td>
+                        <ol>
+                            <li>
+                                <label for = "fname-shipping"> First Name </label>
+                                <input type = "text" id = "fname-shipping" name = "fname-shipping" placeholder = "First Name">
+                            </li>
+                            <li>
+                                <label for = "lname-shipping"> Last Name </label>
+                                <input type = "text" id = "lname-shipping" name = "lname-shipping" placeholder = "Last Name">
+                            </li>
+                            <li>
+                                <label for = "email"> Email </label>
+                                <input type = "text" id = "email" name = "email" placeholder = "Email">
+                            </li>
+                            <li>
+                                <label for = "phone"> Phone Number</label>
+                                <input type = "text" id = "phone" name = "phone" placeholder = "+1(123)-456-7890">
+                            </li>
+                            <li>
                                 <label for = "address"> Street Address </label>
-                            </td>
-                         </tr>
-                         <tr>
-                            <td>
-                                <input type = "text" id = "city" name = "city" placeholder = "City">
-                            </td>
-                            <td>
-                                <input type = "text" id = "state" name = "state" placeholder = "Street/Province/Region">
-                            </td>
-                         </tr>
-                         <tr>
-                            <td>
+                                <input type = "text" id = "address" name = "address" placeholder = "Street Address">
+                            </li>
+                            <li>
                                 <label for = "city"> City </label>
-                            </td>
-                            <td>
+                                <input type = "text" id = "city" name = "city" placeholder = "City">
+                            </li>
+                            <li>
                                 <label for = "state"> Street/Province/Region </label>
-                            </td>
-                         </tr>
-                         <tr>
-                            <td>
-                                <input type = "text" id = "code" name = "code" placeholder = "Postal/Zip Code">
-                            </td>
-                            <td>
-                                <input type = "text" id = "country" name = "country" placeholder = "Country">
-                            </td>
-                         </tr>
-                         <tr>
-                            <td>
+                                <input type = "text" id = "state" name = "state" placeholder = "Street/Province/Region">
+                            </li>
+                            <li>
                                 <label for = "code"> Postal/Zip Code </label>
-                            </td>
-                            <td>
+                                <input type = "text" id = "code" name = "code" placeholder = "Postal/Zip Code">
+                            </li>
+                            <li>
                                 <label for = "country"> Country </label>
-                            </td>
-                         </tr>
-                        </table>
+                                <input type = "text" id = "country" name = "country" placeholder = "Country">
+                            </li>
+                            
+                        </ol>
                     </form>
                 </section>
                 <aside id = "checkout-aside">
