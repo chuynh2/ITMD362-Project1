@@ -91,10 +91,19 @@ input[type = number]{
 	float: right;
 	background-color:#fdffe0;
 	padding: 15px;
+    margin: 10px;
 }
 #left-section{
 	float: left;
 }
+#shopping-table{
+    text-align: left;
+	margin: 10px auto;
+}
+ #shopping-table td {
+     padding: 20px;
+     vertical-align: middle;
+ }
 
 #summary-table{
 	margin: 10px auto;
