@@ -55,6 +55,11 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+input[type=radio], select {
+  padding-left: 20px;
+  margin: 10px 5px;
+  position: relative;
+}
 #main-header{
 	font-family: 'Gamja Flower', cursive;
 	font-size: 64px;
