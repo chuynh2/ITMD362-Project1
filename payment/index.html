@@ -1,175 +1,175 @@
 <!DOCTYPE html>
 <html lang = "en">
-	<head>
-		<meta charset="UTF-8">
-		<title> Payment </title>
-		<link rel = "stylesheet" href = "css/normalize.css">
-		<link rel = "stylesheet" href = "css/style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Karla&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<header id = "main-header">
-			<h1> Christine's Flower Store </h1>
-		</header>
-		<header>
-			<nav id = "main-navbar">
-				<div id = "navbar">
-					<ul>
-						<li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Home </strong> </a> </li>
-						<li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Store </strong> </a> </li>
-						<li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Sales </strong> </a> </li>
-						<li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Contact </strong> </a> </li>
-						<li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Checkout </strong> </a> </li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-		<div>
-			<div id = "main">
-				<h1> Payment </h1>
-				<section id = "left-section">
-					<form>
-						<p class = "subheading" > <strong> Payment Method</strong> </p>
-						<input type = "radio" id = "credit" name = "pmethod" value = "credit">
-						<label for = "credit"> Credit Card </label><br>
-						<input type = "radio" id = "debt" name = "pmethod" value = "debt">
-						<label for = "debt"> Debt Card </label><br>
-						<input type = "radio" id = "paypal" name = "pmethod" value = "paypal">
-						<label for = "paypal"> PayPal </label><br>
-						<input type = "radio" id = "gift_card" name = "pmethod" value = "gift_card">
-						<label for = "gift_card"> Gift Card </label><br>
-						<p class = "subheading" > <strong> Card Information</strong> </p>
-						<table class = "formtable">
-							<tr>
-								<td>
-									<input type = "text" id = "fname" name = "fname" placeholder = "First Name">
-								</td>
-								<td>
-									<input type = "text" id = "lname" name = "lname" placeholder = "Last Name"><br>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<label for = "fname"> First Name on Card </label><br>
-								</td>
-								<td>
-									<label for = "lname"> Last Name on Card </label><br>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<input type = "text" id = "card_number" name = "card_number" placeholder = "Card Number">
-								</td>
-								<td>
-									<input type = "text" id = "cvc" name = "cvc" placeholder = "CVC"><br>
-							</td>
-							</tr>	
-							<tr>
-								<td>
-									<label for = "card_number"> Card Number </label>
-								</td>
-								<td>
-									<label for = "cvc"> Security Code </label>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<input type = "text" id = "edate" name = "edate" placeholder = "MM/YYYY">
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<label for = "edate"> Expiration Date </label>
-								</td>
-							</tr>
-						</table>
-						<p class = "subheading" > <strong> Billing Information</strong> </p>
-						<table class = "formtable">
-						 <tr>
-							<td>
-								<input type = "text" id = "address" name = "address" placeholder = "Street Address">
-							</td>
-						 </tr>
-						 <tr>
-							<td>
-								<label for = "address"> Street Address </label>
-							</td>
-						 </tr>
-						 <tr>
-							<td>
-								<input type = "text" id = "city" name = "city" placeholder = "City">
-							</td>
-							<td>
-								<input type = "text" id = "state" name = "state" placeholder = "Street/Province/Region">
-							</td>
-						 </tr>
-						 <tr>
-							<td>
-								<label for = "city"> City </label>
-							</td>
-							<td>
-								<label for = "state"> Street/Province/Region </label>
-							</td>
-						 </tr>
-						 <tr>
-							<td>
-								<input type = "text" id = "code" name = "code" placeholder = "Postal/Zip Code">
-							</td>
-							<td>
-								<input type = "text" id = "country" name = "country" placeholder = "Country">
-							</td>
-						 </tr>
-						 <tr>
-							<td>
-								<label for = "code"> Postal/Zip Code </label>
-							</td>
-							<td>
-								<label for = "country"> Country </label>
-							</td>
-						 </tr>
-						 
-						</table>
-					</form>
-				</section>
-				<aside id = "checkout-aside">
-				<p class = "subheading"> <strong> <u>Checkout </u></strong> </p>
-				<tr>
-						<label for = "code"> Coupon or Rewards: </label>
-						<input type = "text" id = "code" name="code" placeholder="Enter code">
-				</tr>
-				<table id = "summary-table">
-					<tr> 
-						<p class ="subheading"><strong>Summary </strong></p>
-					</tr>
-					<tr> 
-						<td>Items total:</td>
-						<td>$53.97 </td>
-					</tr>
-					<tr> 
-						<td>Shiping:</td>
-						<td>$7.00</td>
-					</tr>
-					<tr> 
-						<td>Sale Taxes:</td>
-						<td>$5.97 </td>
-					</tr>
-					<tr> 
-						<td>Total:</td>
-						<td>$66.94 </td>
-					</tr>
-				</table>	
-				<tr>
-					<td>
-						<button id = "back-button" <a herf="https://chuynh2.github.io/ITMD362-Project1"> Back </a></button>
-					</td>
-					<td>
-						<button id = "continue-button" <a herf="https://chuynh2.github.io/ITMD362-Project1/shipping"> Continue </a></button>
-					</td>
-				</tr>
-				</aside>
-			</div>
-		</div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <title> Payment </title>
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Karla&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id = "main-header">
+            <h1> Christine's Flower Store </h1>
+        </header>
+        <header>
+            <nav id = "main-navbar">
+                <div id = "navbar">
+                    <ul>
+                        <li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Home </strong> </a> </li>
+                        <li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Store </strong> </a> </li>
+                        <li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Sales </strong> </a> </li>
+                        <li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Contact </strong> </a> </li>
+                        <li> <a href = "https://chuynh2.github.io/ITMD362-Project1/"> <strong> Checkout </strong> </a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <div id = "main">
+                <h1> Payment </h1>
+                <section id = "left-section">
+                    <form>
+                        <p class = "subheading" > <strong> Payment Method</strong> </p>
+                        <input type = "radio" id = "credit" name = "pmethod" value = "credit">
+                        <label for = "credit"> Credit Card </label><br>
+                        <input type = "radio" id = "debt" name = "pmethod" value = "debt">
+                        <label for = "debt"> Debt Card </label><br>
+                        <input type = "radio" id = "paypal" name = "pmethod" value = "paypal">
+                        <label for = "paypal"> PayPal </label><br>
+                        <input type = "radio" id = "gift_card" name = "pmethod" value = "gift_card">
+                        <label for = "gift_card"> Gift Card </label><br>
+                        <p class = "subheading" > <strong> Card Information</strong> </p>
+                        <table class = "formtable">
+                            <tr>
+                                <td>
+                                    <input type = "text" id = "fname" name = "fname" placeholder = "First Name">
+                                </td>
+                                <td>
+                                    <input type = "text" id = "lname" name = "lname" placeholder = "Last Name"><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for = "fname"> First Name on Card </label><br>
+                                </td>
+                                <td>
+                                    <label for = "lname"> Last Name on Card </label><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type = "text" id = "card_number" name = "card_number" placeholder = "Card Number">
+                                </td>
+                                <td>
+                                    <input type = "text" id = "cvc" name = "cvc" placeholder = "CVC"><br>
+                            </td>
+                            </tr>    
+                            <tr>
+                                <td>
+                                    <label for = "card_number"> Card Number </label>
+                                </td>
+                                <td>
+                                    <label for = "cvc"> Security Code </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type = "text" id = "edate" name = "edate" placeholder = "MM/YYYY">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for = "edate"> Expiration Date </label>
+                                </td>
+                            </tr>
+                        </table>
+                        <p class = "subheading" > <strong> Billing Information</strong> </p>
+                        <table class = "formtable">
+                         <tr>
+                            <td>
+                                <input type = "text" id = "address" name = "address" placeholder = "Street Address">
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <label for = "address"> Street Address </label>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <input type = "text" id = "city" name = "city" placeholder = "City">
+                            </td>
+                            <td>
+                                <input type = "text" id = "state" name = "state" placeholder = "Street/Province/Region">
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <label for = "city"> City </label>
+                            </td>
+                            <td>
+                                <label for = "state"> Street/Province/Region </label>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <input type = "text" id = "code" name = "code" placeholder = "Postal/Zip Code">
+                            </td>
+                            <td>
+                                <input type = "text" id = "country" name = "country" placeholder = "Country">
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                                <label for = "code"> Postal/Zip Code </label>
+                            </td>
+                            <td>
+                                <label for = "country"> Country </label>
+                            </td>
+                         </tr>
+                         
+                        </table>
+                    </form>
+                </section>
+                <aside id = "checkout-aside">
+                <p class = "subheading"> <strong> <u>Checkout </u></strong> </p>
+                <tr>
+                        <label for = "code"> Coupon or Rewards: </label>
+                        <input type = "text" id = "code" name="code" placeholder="Enter code">
+                </tr>
+                <table id = "summary-table">
+                    <tr> 
+                        <p class ="subheading"><strong>Summary </strong></p>
+                    </tr>
+                    <tr> 
+                        <td>Items total:</td>
+                        <td>$53.97 </td>
+                    </tr>
+                    <tr> 
+                        <td>Shiping:</td>
+                        <td>$7.00</td>
+                    </tr>
+                    <tr> 
+                        <td>Sale Taxes:</td>
+                        <td>$5.97 </td>
+                    </tr>
+                    <tr> 
+                        <td>Total:</td>
+                        <td>$66.94 </td>
+                    </tr>
+                </table>    
+                <tr>
+                    <td>
+                        <button id = "back-button" <a herf="https://chuynh2.github.io/ITMD362-Project1"> Back </a></button>
+                    </td>
+                    <td>
+                        <button id = "continue-button" <a herf="https://chuynh2.github.io/ITMD362-Project1/shipping"> Continue </a></button>
+                    </td>
+                </tr>
+                </aside>
+            </div>
+        </div>
+    </body>
 </html>
