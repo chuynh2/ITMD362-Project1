@@ -1,0 +1,117 @@
+html {
+	font-family: 'Karla', sans-serif;
+	font-size:17px;
+	background-color: #f4fab9;
+}
+#main-header{
+	font-family: 'Gamja Flower', cursive;
+	font-size: 64px;
+	text-align: center;
+	overflow: hidden;
+	background-color: #ffdbfa;
+	color: #eb4d7c;
+}
+#main-navbar {
+	background-color: #eb4d7c;
+	overflow: hidden;
+}
+#main-navbar div ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #eb4d7c;
+}
+#main-navbar div ul li {
+	float: left;
+}
+#main-navbar div ul li a {
+	display: block;
+	color: #ffdbfa;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+#main-navbar div ul li a:hover {
+  background-color:#fcffc7;
+  color: black;
+  
+}
+#main{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+}
+#checkout-aside{
+	float: right;
+	background-color:#fdffe0;
+	padding: 15px;
+}
+#left-section{
+	float: left;
+}
+
+#summary-table{
+	margin: 0 auto;
+	padding: 0px;
+	border: 1px solid black;
+	td{
+	float: left;
+	}
+}
+#continue-button{
+	margin: 18px auto;
+	padding: 10px;
+	float: right;
+}
+#back-button{
+	margin: 18px auto;
+	padding: 10px;
+	float: left;
+}
+table{
+	padding: 40px;
+	margin: 0 auto;
+	width: 100%;
+	background-color: #fdffe0;
+} 
+form{ 
+	margin: 0px;
+	padding: 40px;
+	width: 700px;
+	background-color: #fdffe0;
+}
+input[type = text]{
+	margin: 8px 0;
+	width: auto;
+	padding: 10px 5px;
+}
+input[type = number]{
+	margin: 8px 0;
+	width: auto;
+	padding: 10px 5px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+.subheading{
+	font-size: 20px;
+}
+.formtable{
+	padding: 0px;
+	margin: 0 auto;
+	width: 100%;
+	background-color: #fdffe0;
+}
+continue-btn {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
