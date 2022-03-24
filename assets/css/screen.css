@@ -14,6 +14,18 @@ html {
 	font-size:17px;
 	background-color: #f4fab9;
 }
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+h2{
+   font-size: 40px;
+   font-weight: bold;
+}
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
 #main-header{
 	font-family: 'Gamja Flower', cursive;
 	font-size: 64px;
@@ -21,11 +33,13 @@ html {
 	overflow: hidden;
 	background-color: #ffdbfa;
 	color: #eb4d7c;
+    padding: 50px;
 }
 #main-navbar {
 	background-color: #eb4d7c;
 	overflow: hidden;
 }
+
 #main-navbar div ul{
 	list-style-type: none;
 	margin: 0;
@@ -33,22 +47,18 @@ html {
 	overflow: hidden;
 	background-color: #eb4d7c;
 }
-#main-navbar div ul li {
-	float: left;
-}
 #main-navbar div ul li a {
+    float: left;
 	display: block;
 	color: #ffdbfa;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 20px;
-	
 }
 #main-navbar div ul li a:hover {
   background-color:#fcffc7;
   color: black;
-  
 }
 #main{
 	width: 1200px;
