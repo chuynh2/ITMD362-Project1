@@ -117,11 +117,20 @@ ol{
     margin: 0.625em;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 22em) {
     aside{
-	float: left;
-	background-color:#fdffe0;
-	padding: 0.9375em;
-    margin: 0.625em;
+        width:90%;
+    }
+    table{
+        width:90%;
+    }
+    form{
+        width:90%;
+    }
+    ol{
+        width:90%;
+    }
+    section{
+        width:90%;
     }
 }
