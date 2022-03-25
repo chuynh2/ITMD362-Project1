@@ -119,7 +119,7 @@ ol{
 
 @media only screen and (min-width: 22em) {
     aside{
-        width:90%;
+        float:left;
     }
     table{
         width:90%;
@@ -131,6 +131,6 @@ ol{
         width:90%;
     }
     section{
-        width:90%;
+        float:left;
     }
 }
