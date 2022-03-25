@@ -22,7 +22,7 @@
                 </div>
             </nav>
         </header>
-                    <div id = "main">
+        <div id = "main">
                 <h2> Shipping </h2>
                 <section id = "left-section">
                     <form>
@@ -32,11 +32,10 @@
                         <input type = "radio" id = "express" name = "smethod" value = "express">
                         <label for = "express"> Express Shipping ($15.00) </label>
                         <h3> Shipping Address</h3>
-                        <input type = "radio" id = "same" name = "sdaddress" value = "same">
-                        <label for = "same"> Same as Billing Address </label>
-                        <input type = "radio" id = "different" name = "sdaddress" value = "differnt">
-                        <label for = "different"> Different Address </label>
-                        <ol>
+                        <label>Flowers will be sent to billing addrres else click button: </label>
+                        <input type="button" onclick="showDifferentAddress()" value="Use different address"/>
+                        <div id = "shippingForm">
+                        <ol id = "shipping-address">
                             <li>
                                 <label for = "fname-shipping"> First Name </label>
                                 <input type = "text" id = "fname-shipping" name = "fname-shipping" placeholder = "First Name">
@@ -139,6 +138,7 @@
                             </li>
                             
                         </ol>
+                        </div>
                     </form>
                 </section>
                 <aside id = "checkout-aside">
@@ -179,5 +179,6 @@
                 </aside>
             </div>
         </div>
+        <script src="../assets/js/main.js"></script>
     </body>
 </html>
