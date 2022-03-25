@@ -38,9 +38,6 @@ form{
 	width: 700px;
 	background-color: #fdffe0;
 }
-ol{
-    margin: 10px;
-}
 input{
 	margin: 8px 0;
 	width: auto;
@@ -59,6 +56,9 @@ input[type=radio], select {
   padding-left: 20px;
   margin: 10px 5px;
   position: relative;
+}
+ol{
+    margin: 10px;
 }
 #main-header{
 	font-family: 'Gamja Flower', cursive;
@@ -113,5 +113,7 @@ input[type=radio], select {
      padding: 20px;
      vertical-align: middle;
  }
- 
+ #shipping-address{
+    margin: 10px;
+}
 
